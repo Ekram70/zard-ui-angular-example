@@ -16,13 +16,9 @@ export class ContactComponent {
 
   openDialog() {
     this.dialogService.create({
-      zTitle: 'Edit Profile',
-      zDescription: `Make changes to your profile here. Click save when you're done.`,
+      zTitle: 'Drop Us a Message',
+      zDescription: `Your email address will not be published. All the fields are required.`,
       zContent: ContactFormComponent,
-      zData: {
-        name: 'Samuel Rizzon',
-        username: '@samuelrizzondev',
-      },
       zOkText: 'Save changes',
       zOnOk: instance => {
         console.log('Form submitted:', instance.form.value);

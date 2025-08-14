@@ -19,8 +19,9 @@ export class ContactFormComponent {
   private zData: DialogData = inject(Z_MODAL_DATA);
 
   form = new FormGroup({
-    name: new FormControl('Pedro Duarte'),
-    username: new FormControl('@peduarte'),
+    name: new FormControl(''),
+    email: new FormControl(''),
+    message: new FormControl(''),
   });
 
   constructor() {

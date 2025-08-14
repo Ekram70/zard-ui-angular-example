@@ -6,16 +6,26 @@
     >
       Name
     </label>
-    <input z-input formControlName="name" />
+    <input z-input formControlName="name" placeholder="Your name" />
   </div>
 
   <div class="grid gap-3">
     <label
-      for="username"
+      for="email"
       class="flex items-center gap-2 text-sm leading-none font-medium select-none"
     >
-      Username
+      Email
     </label>
-    <input z-input formControlName="username" />
+    <input z-input formControlName="email" placeholder="Your email" />
+  </div>
+
+  <div class="grid gap-3">
+    <label
+      for="message"
+      class="flex items-center gap-2 text-sm leading-none font-medium select-none"
+    >
+      Message
+    </label>
+    <textarea z-input rows="8" cols="12" placeholder="Your message" formControlName="message"></textarea>
   </div>
 </form>
