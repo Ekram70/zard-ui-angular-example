@@ -19,9 +19,9 @@ export class FaqComponent {
       answer: 'Zard UI is a free, open-source UI component library for Angular, styled with Tailwind CSS and inspired by Shadcn/ui and ng-zorro.'
     },
     {
-      id: 'z3',
-      question: 'How do I install Zard UI?',
-      answer: 'Install it using `npm install zard-ui@0.0.1`, then integrate it via module imports in your Angular application.'
+      id: 'z2',
+      question: 'How is Zard UI different from other Angular UI libraries?',
+      answer: 'It blends utility-first Tailwind design with Angular components, offering accessible, modern UI with a clean, Tailwind-based workflow.'
     },
     {
       id: 'z4',
