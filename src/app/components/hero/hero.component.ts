@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FeatureCardComponent } from '../feature-card/feature-card.component';
+import {FaqComponent} from '../faq/faq.component';
 
 @Component({
   selector: 'app-hero',
-  imports: [CommonModule, FeatureCardComponent],
+  imports: [CommonModule, FeatureCardComponent, FaqComponent],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css',
 })
