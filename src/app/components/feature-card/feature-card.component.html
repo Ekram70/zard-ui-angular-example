@@ -1,0 +1,32 @@
+<z-card
+  class="rounded-2xl shadow-sm transform hover:scale-102 transition-all duration-300 ease-in-out backdrop-blur-sm hover:shadow-md border border-gray-100/10"
+  [ngStyle]="{ 'background-color': color() }"
+>
+  <div class="flex flex-col h-full p-6 relative overflow-hidden">
+    <div class="flex gap-4 items-start mb-4">
+      <div class="rounded-xl p-3 bg-white/30 backdrop-blur-sm">
+        <p class="text-[32px]">{{ icon() }}</p>
+      </div>
+      <h3 class="text-lg sm:text-xl text-gray-900 font-semibold tracking-tight">
+        {{ title() }}
+      </h3>
+    </div>
+    <p class="flex-grow text-sm sm:text-base md:text-[14px] text-gray-900 leading-relaxed mb-6">
+      {{ description() }}
+    </p>
+    <a
+      href="https://zardui.com/"
+      class="group inline-flex items-center gap-2 self-start px-4 py-2 bg-gray-900/80 text-white/90 rounded-lg hover:bg-gray-800 transition-all duration-200 text-xs sm:text-sm font-medium"
+    >
+      <span>Learn more</span>
+      <app-arrow-right></app-arrow-right>
+    </a>
+
+    <div
+      class="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full -translate-y-16 translate-x-16 blur-2xl"
+    ></div>
+    <div
+      class="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full translate-y-12 -translate-x-8 blur-2xl"
+    ></div>
+  </div>
+</z-card>
