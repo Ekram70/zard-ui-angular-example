@@ -19,7 +19,7 @@ export class ContactComponent {
       zTitle: 'Drop Us a Message',
       zDescription: `Your email address will not be published. All the fields are required.`,
       zContent: ContactFormComponent,
-      zOkText: 'Save changes',
+      zOkText: 'Send',
       zOnOk: instance => {
         console.log('Form submitted:', instance.form.value);
       },
