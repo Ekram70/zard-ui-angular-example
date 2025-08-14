@@ -1,0 +1,21 @@
+<form [formGroup]="form" class="grid gap-4">
+  <div class="grid gap-3">
+    <label
+      for="name"
+      class="flex items-center gap-2 text-sm leading-none font-medium select-none"
+    >
+      Name
+    </label>
+    <input z-input formControlName="name" />
+  </div>
+
+  <div class="grid gap-3">
+    <label
+      for="username"
+      class="flex items-center gap-2 text-sm leading-none font-medium select-none"
+    >
+      Username
+    </label>
+    <input z-input formControlName="username" />
+  </div>
+</form>
