@@ -26,8 +26,8 @@ export class HeroComponent {
     },
     {
       id: 3,
-      title: "Open Source & Developer-Friendly",
-      description: "Zard UI is a free and open-source component library, empowering developers to build beautiful UIs without any licensing concerns. With a focus on developer experience, it provides easy-to-use APIs, comprehensive documentation, and a supportive community to assist you.",
+      title: "Open Source & Developer Friendly",
+      description: "Zard UI is a free and open-source component library, empowering developers to build beautiful UIs without any licensing concerns. With a focus on developer experience, it provides easy-to-use APIs, and comprehensive documentation, and a supportive community to assist you.",
       icon: "💻",
       color: "#FBBF24"
     }
