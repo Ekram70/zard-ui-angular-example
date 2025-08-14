@@ -9,7 +9,7 @@ export const routes: Routes = [
       {
         path: '',
         loadComponent: () =>
-          import('./components/hero/hero.component').then((m) => m.HeroComponent),
+          import('./pages/home/home.component').then((m) => m.HomeComponent),
         pathMatch: 'full',
       },
     ],
