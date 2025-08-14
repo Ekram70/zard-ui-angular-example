@@ -1,0 +1,11 @@
+<div class="flex gap-5 max-w-7xl px-4 mx-auto flex-wrap justify-center">
+  @for (card of zardUICards; track card.id) {
+    <app-feature-card
+      [title]="card.title"
+      [description]="card.description"
+      [icon]="card.icon"
+      [color]="card.color"
+      class="flex-1 min-w-[250px] max-w-[400px]"
+    ></app-feature-card>
+  }
+</div>
